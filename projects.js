@@ -42,7 +42,7 @@ let projectDetails = [
   {
       title: "Good Movies",
       description: "Do you love to watch movies? You would find some good recommendations.",
-      image: "./images/good-movives.png",
+      image: "./images/good-movies.png",
       date: "Aug 2020",
       site: "https://movie-recommender-m09.netlify.app/",
       source: "https://github.com/rkreddy99/genre-recommender"
@@ -130,10 +130,12 @@ function appendProjects(index) {
     let visitSite = document.createElement("button")
     visitSite.className = "visit-site"
     visitSite.innerHTML = "Visit Site"
+    visitSite.addEventListener("click", () => {window.open(element.site)})
 
     let viewSource = document.createElement("button")
     viewSource.className = "view-source"
     viewSource.innerHTML = "View Source"
+    viewSource.addEventListener("click", () => {window.open(element.source)})
 
     projectsContainer.appendChild(project)
     project.appendChild(projectImageDiv)
