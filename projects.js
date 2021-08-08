@@ -97,7 +97,6 @@ let loadButton = document.createElement("button")
 loadButton.className = "load"
 loadButton.innerHTML = "Show More"
 loadButton.addEventListener("click", () => {
-    showMore = true
     loadButton.parentNode.removeChild(loadButton)
     for (let index = 3; index < projectDetails.length; index++) {
         appendProjects(index)
@@ -147,10 +146,6 @@ function appendProjects(index) {
     projectDescription.appendChild(viewSource)
     projectsContainer.appendChild(document.createElement("hr"))
 }
-
-
-let showMore = false
-{/* <button class="load">Load More</button> */}
 
 for (let index = 0; index < 3; index++) {
   appendProjects(index)
