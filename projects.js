@@ -1,94 +1,95 @@
-const projectDetails = [
+let projectDetails = [
   {
       title: "Do you know me?",
       description: "A fun CLI app based on NodeJS that can quiz my friends on how well do they know me.",
-      image: "./images/photo.png",
+      image: "./images/know-me.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://replit.com/@Rama-KrishnaKri/KnowMe?embed=1&output=1",
+      source: "https://github.com/rkreddy99/know-me"
   },
   {
       title: "Are you a potter-head?",
       description: "Let's checkout how well do you know about Harry Potter series by J. K. Rowling.",
-      image: "./images/photo.png",
+      image: "./images/potter-head.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://replit.com/@Rama-KrishnaKri/PotterHead?embed=1&output=1",
+      source: "https://github.com/rkreddy99/movies-quiz"
   },
   {
       title: "Minion Speak",
       description: "Did you know that all the gibberish that minions speak is an actual language. Use this app to translate text from English to the Minion language or Banana laguage.",
-      image: "./images/photo.png",
+      image: "./images/minion-language.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://minion-translator-m6.netlify.app/",
+      source: "https://github.com/rkreddy99/minion-translator"
   },
   {
       title: "Speak Dothraki",
       description: "Have you heard of Dothraki language and wanted to speak it? Well here is an app that can translate text from English to Dothraki.",
-      image: "./images/photo.png",
+      image: "./images/speak-dothraki.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://dothraki-translator-m7.netlify.app/",
+      source: "https://github.com/rkreddy99/dothraki-translator"
   },
   {
       title: "Emoji Interpreter",
       description: "This a fun app that can tell you meaning of animals and nature emojis.",
-      image: "./images/photo.png",
+      image: "./images/know-emoji.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://know-ur-emoji-m8.netlify.app/",
+      source: "https://github.com/rkreddy99/emoji-detector"
   },
   {
       title: "Good Movies",
       description: "Do you love to watch movies? You would find some good recommendations.",
-      image: "./images/photo.png",
+      image: "./images/good-movives.png",
       date: "Aug 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://movie-recommender-m09.netlify.app/",
+      source: "https://github.com/rkreddy99/genre-recommender"
   },
   {
       title: "Cash Register",
       description: "This is an useful app that can tell the amount that a cashier has to return to the customer upon bill payment.",
-      image: "./images/photo.png",
+      image: "./images/cash-register.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://cash-registry-m10.netlify.app/",
+      source: "https://github.com/rkreddy99/cash-register"
   },
   {
       title: "Is your birthday lucky?",
       description: "Find out whether your birthdate is lucky or not.",
-      image: "./images/photo.png",
+      image: "./images/lucky-birthday.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://lucky-birthday-m11.netlify.app/",
+      source: "https://github.com/rkreddy99/lucky-birthday"
   },
   {
       title: "Fun with Triangles",
       description: "Find out properties of triangles and play a quiz on triangles.",
-      image: "./images/photo.png",
+      image: "./images/fun-triangles.png",
       date: "Aug 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://fun-with-triangles-m12.netlify.app/",
+      source: "https://github.com/rkreddy99/fun-with-triangles"
   },
   {
       title: "Palindromic Birthday",
-      image: "./images/photo.png",
+      image: "./images/palindrome-birthday.png",
       description: "Use this app to check whether if your birthdate forms a palindrome.",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/",
+      site: "https://palindrome-birthday-m13.netlify.app/",
+      source: "https://github.com/rkreddy99/palindrome-birthday",
       date: "Aug 2020",
   },
   {
-      title: "PnL Calculator",
+      title: "Stock PnL Calculator",
       description: "Find out how much profit/loss have you made on a stock.",
-      image: "./images/photo.png",
+      image: "./images/stock-price.png",
       date: "Aug 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://stock-price-calculator-m14.netlify.app/",
+      source: "https://github.com/rkreddy99/stock-price-calculator"
   }
 ]
 
+projectDetails = projectDetails.reverse()
 
 let projectsContainer = document.getElementsByClassName("projects-container")[0]
 
