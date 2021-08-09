@@ -1,11 +1,10 @@
 const projectDetails = [
   {
-      title: "Do you know me?",
-      description: "A fun CLI app based on NodeJS that can quiz my friends on how well do they know me.",
-      image: "./images/photo.png",
-      date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      title: "An Introduction to Flux",
+      description: "Flux is a design pattern which uses unidirectional data flow pattern to solve the state management complexity. Want to read more..",
+      image: "./images/flux.png",
+      date: "Aug 2020",
+      site: "https://rkreddy99.medium.com/an-introduction-to-flux-abee8fc417f6",
   },
   {
       title: "Are you a potter-head?",
