@@ -6,7 +6,6 @@
   --light-red-hover: #e94d62B3;
   --dim-white: #e1e1e1;
   --primary-text: rgb(230, 241, 255);
-  --territory-text: rgb(214, 217, 224);
   --secondary-head: rgb(215, 224, 236);
   --primary-background: #17315a;
   --secondary-background: rgb(13, 34, 68);
@@ -56,29 +55,29 @@ a {
   text-decoration: none;
 }
 
-.nav__links a,
+.nav-pills a,
 .cta,
-.overlay__content a {
+.overlay-content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: var(--primary-text);
   text-decoration: none;
 }
 
-.nav__links {
+.nav-pills {
   list-style: none;
   display: flex;
 }
 
-.nav__links li {
+.nav-pills li {
   padding: 0px 20px;
 }
 
-.nav__links li a {
+.nav-pills li a {
   transition: color 0.3s ease 0s;
 }
 
-.nav__links li a:hover {
+.nav-pills li a:hover {
   color: var(--light-red);
 }
 
@@ -117,7 +116,7 @@ a {
   width: 100%;
 }
 
-.overlay__content {
+.overlay-content {
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -185,7 +184,7 @@ section {
 .about h5 {
   font-size: 1.2rem;
   margin: 0.5rem;
-  color: var(--territory-text);
+  color: var(--secondary-head);
 }
 
 .about h4 {
@@ -431,7 +430,7 @@ footer div {
 }
 
 @media only screen and (max-width: 800px) {
-  .nav__links,
+  .nav-pills,
   .cta {
     display: none;
   }
