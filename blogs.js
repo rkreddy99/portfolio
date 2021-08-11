@@ -2,17 +2,16 @@ const projectDetails = [
   {
       title: "An Introduction to Flux",
       description: "Flux is a design pattern which uses unidirectional data flow pattern to solve the state management complexity. Want to read more..",
-      image: "./images/flux.png",
+      image: "./images/blogs/flux.png",
       date: "Aug 2020",
       site: "https://rkreddy99.medium.com/an-introduction-to-flux-abee8fc417f6",
   },
   {
-      title: "Are you a potter-head?",
-      description: "Let's checkout how well do you know about Harry Potter series by J. K. Rowling.",
-      image: "./images/photo.png",
+      title: "Hoisting in JavaScript",
+      description: "Hoisting is a mechanism which moves the functions and variables to the top of their scope before the code execution starts.",
+      image: "./images/blogs/hoisting.png",
       date: "July 2020",
-      site: "https://stackoverflow.com/",
-      source: "https://stackoverflow.com/"
+      site: "https://rkreddy99.medium.com/hoisting-in-javascript-dcebb3dc3ff6",
   }
 ]
 
@@ -45,6 +44,7 @@ function appendProjects(index) {
     let visitSite = document.createElement("button")
     visitSite.className = "visit-site"
     visitSite.innerHTML = "Read Blog"
+    visitSite.addEventListener("click", () => {window.open(element.site)})
 
     projectsContainer.appendChild(project)
     project.appendChild(projectImageDiv)
