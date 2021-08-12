@@ -311,7 +311,6 @@ hr {
 }
 
 .skills div {
-  /* border: 1px solid white; */
   width: 80vw;
   padding: 20px;
   background-color: var(--secondary-button);
@@ -326,7 +325,6 @@ hr {
 }
 
 .skills p{
-  /* margin-bottom: 2rem; */
   font-size: 1.2rem;
 }
 
@@ -354,35 +352,6 @@ footer {
 
 .footer {
   height: 100px;
-}
-
-@media screen and (max-width: 900px) {
-  .project, .about-container { 
-    display: flex; 
-    flex-flow: column; 
-  }
-
-  .project-image, .coder img { 
-    order: 1; 
-  }
-
-  .project-description, .about { 
-    order: 2;
-    text-align: center;
-    width: 70vw;
-  }
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px;
-  }
-
-  .overlay .close {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
 }
 
 footer {
@@ -451,5 +420,33 @@ footer div {
   footer div {
     width: 70vw;
   }
+}
 
+@media screen and (max-width: 900px) {
+  .project, .about-container { 
+    display: flex; 
+    flex-flow: column; 
+  }
+
+  .project-image, .coder img { 
+    order: 1; 
+  }
+
+  .project-description, .about { 
+    order: 2;
+    text-align: center;
+    width: 70vw;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
