@@ -112,7 +112,7 @@ a {
   transition: width 0.5s ease 0s;
 }
 
-.overlay--active {
+.overlay-active {
   width: 100%;
 }
 
